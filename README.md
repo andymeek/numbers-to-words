@@ -1,6 +1,6 @@
-# node-boilerplate
+# Covert numbers to words
 
-NodeJS boilerplate with: TypeScript, ESlint, Prettier &amp; Jest
+Run the application through the CLI.
 
 ## Available Scripts
 
@@ -14,9 +14,9 @@ Runs the app.
 
 Launches the test runner.
 
-Interactive watch mode can be run with: 
+Interactive watch mode can be run with:
 
-```npm run test:watch```
+`npm run test:watch`
 
 ### `npm build`
 
