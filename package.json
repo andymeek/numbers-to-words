@@ -2,13 +2,13 @@
   "name": "numbers-to-words",
   "description": "Converts numbers to words",
   "version": "1.0.0",
-  "main": "./build/index.js",
+  "main": "./bin/numbers-to-words.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "lint:scripts": "eslint './**/*.{ts,tsx}' --color --fix",
     "lint": "npm run lint:scripts",
-    "start": "node ./build/index",
+    "start": "node ./bin/numbers-to-words",
     "test": "jest --colors --coverage --verbose=true --runInBand --watchAll=false",
     "test:watch": "npm test -- --watchAll"
   },
