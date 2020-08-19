@@ -1,0 +1,30 @@
+{
+  "name": "numbers-to-words",
+  "description": "Converts numbers to words",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint:scripts": "eslint './**/*.{ts,tsx}' --color --fix",
+    "lint": "npm run lint:scripts",
+    "start": "node ./build/index",
+    "test": "jest --colors --coverage --verbose=true --runInBand --watchAll=false",
+    "test:watch": "npm test -- --watchAll"
+  },
+  "author": "Andy Meek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.9.1",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.4.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  }
+}
