@@ -2,4 +2,4 @@ import { numbersToWordsConverter } from './numbers-to-words-converter'
 
 const [number] = process.argv.slice(-1)
 
-console.log(numbersToWordsConverter(Number(number)))
+console.log(numbersToWordsConverter(+number))
