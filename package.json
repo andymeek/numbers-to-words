@@ -2,6 +2,7 @@
   "name": "numbers-to-words",
   "description": "Converts numbers to words",
   "version": "1.0.0",
+  "bin": "./bin/numbers-to-words.js",
   "main": "./bin/numbers-to-words.js",
   "scripts": {
     "build": "tsc",
@@ -26,5 +27,6 @@
     "prettier": "^2.0.5",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "dependencies": {}
 }

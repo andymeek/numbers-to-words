@@ -24,7 +24,7 @@ describe('numbers to words converter', () => {
 })
 
 describe('given the number cannot be converted', () => {
-  it('throws an error', () => {
-    expect(() => numbersToWordsConverter(-1)).toThrow('Number not found!')
+  it('returns an error', () => {
+    expect(numbersToWordsConverter(-1)).toBe('Error: number not found!')
   })
 })

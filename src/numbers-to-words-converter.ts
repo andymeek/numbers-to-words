@@ -38,7 +38,7 @@ export function numbersToWordsConverter(number: number): string {
   const foundNumber = numbers.find(({ num }) => number >= num)
 
   if (!foundNumber) {
-    throw new Error('Number not found!')
+    return 'Error: number not found!'
   }
 
   const { label, num } = foundNumber
