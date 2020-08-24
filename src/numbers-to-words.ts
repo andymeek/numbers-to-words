@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { numbersToWordsConverter } from './numbers-to-words-converter'
 
 const [number] = process.argv.slice(-1)
